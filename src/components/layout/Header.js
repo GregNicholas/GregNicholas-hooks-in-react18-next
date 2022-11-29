@@ -12,12 +12,12 @@ export default function Header() {
                 href="https://www.siliconvalley-codecamp.com/Event/2019"
                 target="_blank"
               >
-                Silicon Valley Code Camp 2019
+                Gregory Schoenberg's Code Camp 2023
               </a>
             </h2>
           </div>
           <div className="col-lg-6 date-meta text-center text-lg-start mt-3 mt-lg-0">
-            <h5 className="text-uppercase">October 19-20, 2019</h5>
+            <h5 className="text-uppercase">October 19-20, 2023</h5>
             <h6 className="text-uppercase">San Jose, California</h6>
           </div>
         </div>
