@@ -8,7 +8,7 @@ function List({ state, dispatch }) {
 
   function toggleFavoriteSpeaker(speakerRec) {
     const updatedSpeakerRec = {...speakerRec, favorite: !speakerRec.favorite}
-    dispatch({type: "updateSpeaker", speaker: updatedSpeakerRec})
+s    dispatch({type: "updateSpeaker", speaker: updatedSpeakerRec})
     const updateAsync = async (rec) => {
       setUpdatingId(rec.id);
       await axios.put(`/api/speakers/${rec.id}`, updatedSpeakerRec);
